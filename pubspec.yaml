@@ -1,0 +1,108 @@
+name: flog
+description: FLOG project
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_native_splash: ^2.3.1 # 로딩 화면 커스텀
+
+  cupertino_icons: ^1.0.2
+  camera: ^0.10.5+2
+  path_provider: ^2.0.5
+  image_cropper: ^5.0.0
+  image_picker: ^1.0.2
+  intl: ^0.18.1
+  uuid: 3.0.7
+  text_editor: ^0.7.0
+  google_fonts: ^5.1.0
+  video_player: ^2.7.1
+  firebase_core: ^2.15.0
+  
+  firebase_auth: ^4.7.2
+  fluttertoast: ^8.2.2
+  firebase_core_platform_interface: ^4.8.0
+  cloud_firestore: ^4.8.4
+  firebase_storage: ^11.2.5
+  firebase_messaging: ^14.6.7 #FCM
+  flutter_local_notifications: ^15.1.0+1
+
+  shared_preferences: ^2.2.0
+  shared_preferences_android: ^2.2.0
+  shared_preferences_ios_sn: ^1.0.3
+  provider: ^6.0.5
+
+  flutter_email_sender: ^6.0.1 #문의하기
+  google_mlkit_face_detection: ^0.9.0
+  flutter_spinkit: ^5.2.0
+
+
+
+  workmanager: ^0.5.1
+  http: ^1.1.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Pretendard
+      fonts:
+        - asset: assets/font/Pretendard-Thin.ttf
+          weight: 100
+        - asset: assets/font/Pretendard-ExtraLight.ttf
+          weight: 200
+        - asset: assets/font/Pretendard-Light.ttf
+          weight: 300
+        - asset: assets/font/Pretendard-Regular.ttf
+          weight: 400
+        - asset: assets/font/Pretendard-Medium.ttf
+          weight: 500
+        - asset: assets/font/Pretendard-SemiBold.ttf
+          weight: 600
+        - asset: assets/font/Pretendard-Bold.ttf
+          weight: 700
+        - asset: assets/font/Pretendard-ExtraBold.ttf
+          weight: 800
+        - asset: assets/font/Pretendard-Black.ttf
+          weight: 900
+
+  assets:
+    - assets/app_logo.png
+    - assets/face_angry.png
+    - assets/face_dizzy.png
+    - assets/face_sad.png
+    - assets/flog_coin_green.png
+    - assets/flog_coin_yellow.png
+    - assets/flog_foot_black.png
+    - assets/flog_foot_green.png
+    - assets/flog_foot_stroke.png
+    - assets/flog_foot_white.png
+    - assets/flog_logo.png
+    - assets/flog_name.png
+    - assets/flog_name_3d.png
+    - assets/matching_screen_background.png
+    - assets/memory_book.png
+    - assets/splash.png
+    - assets/start.png
+    - assets/curious.png
+    - assets/hands.png
+    - assets/heart.png
+    - assets/sad.png
+    - assets/emoticons/
+    - assets/profile/
+    - button/
