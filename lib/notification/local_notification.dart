@@ -61,6 +61,7 @@ class LocalNotification {
         );
   }
 
+/*
 // 프로그타임 알림
   static Future<void> scheduleRandomNotification(BuildContext context) async {
     tz.initializeTimeZones();
@@ -101,7 +102,7 @@ class LocalNotification {
           UILocalNotificationDateInterpretation.absoluteTime,
     );
   }
-
+*/
   static Future<void> showNotification({
     required String userToken,
     required String title,

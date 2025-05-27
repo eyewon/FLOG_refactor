@@ -11,7 +11,6 @@ import 'package:provider/provider.dart';
 //import 'package:workmanager/workmanager.dart';
 import 'firebase_options.dart';
 import 'models/model_auth.dart';
-import 'screen/register/login_screen.dart';
 import 'screen/register/register_screen.dart';
 //import 'package:flog/notification/scheduling.dart';
 
